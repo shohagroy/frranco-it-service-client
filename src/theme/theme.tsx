@@ -10,6 +10,16 @@ const theme = createTheme({
     secondary: {
       main: "#19857b",
     },
+    background: {
+      default: "#000000",
+    },
+    text: {
+      primary: "#EDEDED",
+      secondary: "#B9B9B9",
+    },
+  },
+  typography: {
+    fontFamily: "Poppins, sans-serif",
   },
 });
 

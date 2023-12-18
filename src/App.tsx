@@ -1,11 +1,10 @@
-import { Button } from "@mui/material";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <>
       <main>
-        <h2 style={{ color: "red" }}>hello woeld</h2>
-        <Button variant="contained">Hello world</Button>
+        <HeroSection />
       </main>
     </>
   );
