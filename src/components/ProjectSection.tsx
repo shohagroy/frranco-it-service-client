@@ -17,26 +17,26 @@ const ProjectSection = () => {
   const projects = [
     {
       id: 1,
-      tittle: "Night googles by Mindchatter",
-      subTittle: "Website design, Art direction, Development",
+      title: "Night googles by Mindchatter",
+      subTitle: "Website design, Art direction, Development",
       img: img1,
     },
     {
-      id: 1,
-      tittle: "Night googles by Mindchatter",
-      subTittle: "Website design, Art direction, Development",
+      id: 2,
+      title: "Night googles by Mindchatter",
+      subTitle: "Website design, Art direction, Development",
       img: img2,
     },
     {
-      id: 1,
-      tittle: "Night googles by Mindchatter",
-      subTittle: "Website design, Art direction, Development",
+      id: 3,
+      title: "Night googles by Mindchatter",
+      subTitle: "Website design, Art direction, Development",
       img: img3,
     },
     {
-      id: 1,
-      tittle: "Night googles by Mindchatter",
-      subTittle: "Website design, Art direction, Development",
+      id: 4,
+      title: "Night googles by Mindchatter",
+      subTitle: "Website design, Art direction, Development",
       img: img4,
     },
   ];
@@ -51,7 +51,7 @@ const ProjectSection = () => {
         <Box sx={{ paddingY: "50px" }}>
           <Grid container spacing={6}>
             {projects?.map((item, i) => {
-              const { img, tittle, subTittle } = item || {};
+              const { img, title, subTitle } = item || {};
               return (
                 <Grid
                   sx={{
@@ -73,7 +73,7 @@ const ProjectSection = () => {
                       component="img"
                       height="550px"
                       image={img}
-                      alt={tittle}
+                      alt={title}
                     />
                     <CardContent sx={{ bgcolor: "black" }}>
                       <Typography
@@ -88,7 +88,7 @@ const ProjectSection = () => {
                         variant="subtitle1"
                         color="text.primary"
                       >
-                        {tittle}
+                        {title}
                       </Typography>
 
                       <Typography
@@ -101,7 +101,7 @@ const ProjectSection = () => {
                           },
                         }}
                       >
-                        {subTittle}
+                        {subTitle}
                       </Typography>
                     </CardContent>
                   </Card>

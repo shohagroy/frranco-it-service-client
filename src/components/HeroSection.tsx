@@ -1,4 +1,5 @@
 import { Box, Container, Typography } from "@mui/material";
+import HeadingText from "../ui/HeadingText";
 
 const HeroSection = () => {
   return (
@@ -12,9 +13,9 @@ const HeroSection = () => {
         }}
       >
         <Box>
-          <Typography gutterBottom variant="h1" sx={{ fontSize: "60px" }}>
-            Frranco. IT Service Provider.
-          </Typography>
+          <HeadingText size={"60px"}>
+            Frranco. IT Service Provider.{" "}
+          </HeadingText>
           <Box
             sx={{
               borderLeft: "2px solid #F4F4F4",

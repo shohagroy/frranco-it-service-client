@@ -1,3 +1,4 @@
+import ClientsSection from "./components/ClientsSection";
 import HeroSection from "./components/HeroSection";
 import ProjectSection from "./components/ProjectSection";
 
@@ -7,6 +8,7 @@ function App() {
       <main>
         <HeroSection />
         <ProjectSection />
+        <ClientsSection />
       </main>
     </>
   );
