@@ -8,7 +8,11 @@ type HeadingProps = {
 
 const HeadingText = ({ children, size }: HeadingProps) => {
   return (
-    <Typography gutterBottom variant="h1" sx={{ fontSize: size }}>
+    <Typography
+      gutterBottom
+      variant="h1"
+      sx={{ fontSize: size, fontWeight: 500 }}
+    >
       {children}
     </Typography>
   );
