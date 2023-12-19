@@ -1,15 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Container,
-  Grid,
-  Paper,
-  Typography,
-} from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import MainButton from "../ui/MainButton";
 import HeadingText from "../ui/HeadingText";
 import icon1 from "../assets/client-1.png";
@@ -43,7 +32,7 @@ const ClientsSection = () => {
   ];
 
   return (
-    <Container maxWidth="lg" sx={{ marginY: "50px" }}>
+    <Container maxWidth="lg" sx={{ marginY: "100px" }}>
       <Box sx={{ padding: 0, textAlign: "center" }}>
         <Typography gutterBottom variant="subtitle1">
           Our clients
