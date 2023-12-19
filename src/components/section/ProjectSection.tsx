@@ -7,11 +7,11 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import img1 from "../assets/project-1.png";
-import img2 from "../assets/project-2.png";
-import img3 from "../assets/project-3.png";
-import img4 from "../assets/project-4.png";
-import MainButton from "./ui/MainButton";
+import img1 from "../../assets/project-1.png";
+import img2 from "../../assets/project-2.png";
+import img3 from "../../assets/project-3.png";
+import img4 from "../../assets/project-4.png";
+import MainButton from "../button/MainButton";
 
 const ProjectSection = () => {
   const projects = [

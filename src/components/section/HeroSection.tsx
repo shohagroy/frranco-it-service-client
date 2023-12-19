@@ -1,5 +1,6 @@
-import { Box, Container, Typography } from "@mui/material";
-import BG from "../assets/hero-bg.png";
+import { Box, Container, Fab, Typography } from "@mui/material";
+import BG from "../../assets/hero-bg.png";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 const HeroSection = () => {
   return (
@@ -53,16 +54,22 @@ const HeroSection = () => {
             </Box>
           </Box>
 
-          <Box
+          <Fab
+            color="primary"
+            aria-label="scroll down"
             sx={{
-              width: "200px",
-              height: "200px",
-              bgcolor: "white",
               position: "absolute",
-              right: "10px",
-              bottom: "10px",
+              right: "50px",
+              bottom: "50px",
+              padding: "10px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
             }}
-          ></Box>
+          >
+            <ArrowDownwardIcon />
+          </Fab>
         </Box>
       </Container>
     </div>

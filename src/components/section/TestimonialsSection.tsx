@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography, Button } from "@mui/material";
-import Img from "../assets/image-1.png";
-import Quotes from "../assets/double-quotes.png";
+import Img from "../../assets/image-1.png";
+import Quotes from "../../assets/double-quotes.png";
 import Carousel from "react-material-ui-carousel";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";

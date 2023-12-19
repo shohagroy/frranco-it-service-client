@@ -1,10 +1,9 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import MainButton from "./ui/MainButton";
-import HeadingText from "./ui/HeadingText";
-import icon1 from "../assets/client-1.png";
-import icon2 from "../assets/client-2.png";
-import icon3 from "../assets/client-3.png";
-import icon4 from "../assets/client-4.png";
+import MainButton from "../button/MainButton";
+import icon1 from "../../assets/client-1.png";
+import icon2 from "../../assets/client-2.png";
+import icon3 from "../../assets/client-3.png";
+import icon4 from "../../assets/client-4.png";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 const ClientsSection = () => {
@@ -38,13 +37,22 @@ const ClientsSection = () => {
           Our clients
         </Typography>
 
-        <HeadingText size={"30px"}>
+        <Typography
+          gutterBottom
+          variant="h1"
+          sx={{ fontSize: "30px", fontWeight: 500 }}
+        >
           We have re-defined user experiences for over
-        </HeadingText>
+        </Typography>
 
-        <HeadingText size={"30px"}>
-          <span style={{ color: "#3C50FC" }}>50+ clients.</span>
-        </HeadingText>
+        <Typography
+          gutterBottom
+          variant="h1"
+          color={"primary"}
+          sx={{ fontSize: "30px", fontWeight: 500 }}
+        >
+          50+ clients.
+        </Typography>
       </Box>
 
       <Box sx={{ paddingY: "50px" }}>

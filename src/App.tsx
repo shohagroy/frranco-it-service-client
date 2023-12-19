@@ -1,9 +1,9 @@
-import ClientsSection from "./components/ClientsSection";
-import HeroSection from "./components/HeroSection";
-import ProjectSection from "./components/ProjectSection";
-import ServicesSection from "./components/ServicesSection";
-import TestimonialsSection from "./components/TestimonialsSection";
-import WorkWithSection from "./components/WorkWithSection";
+import ClientsSection from "./components/section/ClientsSection";
+import HeroSection from "./components/section/HeroSection";
+import ProjectSection from "./components/section/ProjectSection";
+import ServicesSection from "./components/section/ServicesSection";
+import TestimonialsSection from "./components/section/TestimonialsSection";
+import WorkWithSection from "./components/section/WorkWithSection";
 
 function App() {
   return (
