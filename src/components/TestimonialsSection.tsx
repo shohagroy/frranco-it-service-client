@@ -7,11 +7,10 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const TestimonialsSection = () => {
   return (
-    <Container maxWidth="lg" sx={{ marginY: "100px", position: "relative" }}>
-      <Box>
+    <Container maxWidth="lg" sx={{ position: "relative" }}>
+      <Box sx={{ paddingY: "50px" }}>
         <Typography
           sx={{
-            mb: "10px",
             "@media (min-width: 600px)": {
               mb: "50px",
             },

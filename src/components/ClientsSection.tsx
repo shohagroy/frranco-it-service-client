@@ -32,8 +32,8 @@ const ClientsSection = () => {
   ];
 
   return (
-    <Container maxWidth="lg" sx={{ marginY: "100px" }}>
-      <Box sx={{ padding: 0, textAlign: "center" }}>
+    <Container maxWidth="lg">
+      <Box sx={{ paddingY: "50px", textAlign: "center" }}>
         <Typography gutterBottom variant="subtitle1">
           Our clients
         </Typography>

@@ -31,10 +31,11 @@ const ServicesSection = () => {
 
   return (
     <>
-      <Container maxWidth="lg" sx={{ mT: "100px" }}>
+      <Container maxWidth="lg">
         <Box
           sx={{
             width: "100%",
+            paddingY: "50px",
             "@media (min-width: 600px)": {
               width: "850px",
             },

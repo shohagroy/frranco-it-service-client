@@ -2,7 +2,7 @@ import { Box, Container, Typography, Button } from "@mui/material";
 
 const WorkWithSection = () => {
   return (
-    <Container maxWidth="lg" sx={{ marginY: "100px", position: "relative" }}>
+    <Container maxWidth="lg" sx={{ position: "relative" }}>
       <Box
         display={"flex"}
         justifyContent={"center"}

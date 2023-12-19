@@ -43,12 +43,15 @@ const ProjectSection = () => {
 
   return (
     <>
-      <Container maxWidth="lg" sx={{ marginTop: "100px" }}>
-        <Typography gutterBottom variant="subtitle1" sx={{ padding: 0 }}>
-          Flagship projects
-        </Typography>
-
+      <Container maxWidth="lg">
         <Box sx={{ paddingY: "50px" }}>
+          <Typography
+            gutterBottom
+            variant="subtitle1"
+            sx={{ paddingBottom: "50px" }}
+          >
+            Flagship projects
+          </Typography>
           <Grid container spacing={6}>
             {projects?.map((item, i) => {
               const { img, title, subTitle } = item || {};
