@@ -1,8 +1,9 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import OutlineButton from "../button/OutlineButton";
 import EventBG from "../../assets/event-bg.png";
 import MainButton from "../button/MainButton";
+import GroupBg2 from "../../assets/group-bg.png";
 
 const ServicesSection = () => {
   const services = [
@@ -203,44 +204,68 @@ const ServicesSection = () => {
         <MainButton>Watch showreel</MainButton>
       </Box>
 
-      {/* <Box
+      <Grid
+        container
+        spacing={6}
         sx={{
-          mt: "100px",
-          background: `url(${GroupBg})`,
-          backgroundRepeat: "no-repeat",
-          height: "230px",
-          width: "100%",
-          backgroundPosition: "right",
-          backgroundSize: "contain",
-          "@media (min-width: 600px)": {
-            height: "900px",
-            backgroundSize: "cover",
-          },
+          height: "100%",
+          paddingY: "50px",
         }}
-        display={"flex"}
-        justifyContent={"center"}
-        alignItems={"center"}
       >
-        <Container maxWidth="lg">
+        <Grid item xs={12} md={8}>
           <Box
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"start"}
+            flexDirection={"column"}
             sx={{
               width: "100%",
-              py: "50px",
+              paddingLeft: "20px",
+              height: "100%",
+              mx: "auto",
               "@media (min-width: 600px)": {
-                height: "900px",
+                paddingLeft: "20vw",
+                height: "800px",
               },
             }}
           >
-            <HeadingText size="45px">
+            <Typography
+              gutterBottom
+              variant="h2"
+              sx={{
+                fontSize: "28px",
+                fontWeight: 500,
+                "@media (min-width: 600px)": {
+                  fontSize: "45px",
+                },
+              }}
+            >
               Franco gives you on demand access to the talented pool of top-tier
               developers & designers
-            </HeadingText>
-          </Box>
-          <MainButton>Start 3 day free trial</MainButton>
+            </Typography>
 
-          <Button>NO PAYMENT. NO RISKS</Button>
-        </Container>
-      </Box> */}
+            <MainButton>Start 3 day free trial</MainButton>
+            <Button>NO PAYMENT. NO RISKS</Button>
+          </Box>
+        </Grid>
+
+        <Grid
+          sx={{
+            backgroundImage: `url(${GroupBg2})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "right",
+            backgroundSize: "cover",
+            width: "100%",
+            height: "300px",
+            "@media (min-width: 600px)": {
+              height: "800px",
+            },
+          }}
+          item
+          xs={12}
+          md={4}
+        ></Grid>
+      </Grid>
     </>
   );
 };
