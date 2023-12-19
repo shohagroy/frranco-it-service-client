@@ -45,9 +45,8 @@ const WorkWithSection = () => {
             borderRadius: "30px",
             bgcolor: "text.primary",
           }}
-          color="secondary"
           size="large"
-          variant="outlined"
+          variant="contained"
         >
           <Typography
             sx={{
