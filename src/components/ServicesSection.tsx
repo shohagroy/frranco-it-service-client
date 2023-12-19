@@ -1,10 +1,10 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import OutlineButton from "../ui/OutlineButton";
+import OutlineButton from "./ui/OutlineButton";
 import EventBG from "../assets/event-bg.png";
 import GroupBg from "../assets/group-bg.png";
-import MainButton from "../ui/MainButton";
-import HeadingText from "../ui/HeadingText";
+import MainButton from "./ui/MainButton";
+import HeadingText from "./ui/HeadingText";
 
 const ServicesSection = () => {
   const services = [

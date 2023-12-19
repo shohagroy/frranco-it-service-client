@@ -1,6 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
-import MainButton from "../ui/MainButton";
-import HeadingText from "../ui/HeadingText";
+import MainButton from "./ui/MainButton";
+import HeadingText from "./ui/HeadingText";
 import icon1 from "../assets/client-1.png";
 import icon2 from "../assets/client-2.png";
 import icon3 from "../assets/client-3.png";

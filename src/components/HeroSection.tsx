@@ -1,5 +1,5 @@
 import { Box, Container, Typography } from "@mui/material";
-import HeadingText from "../ui/HeadingText";
+import HeadingText from "./ui/HeadingText";
 
 const HeroSection = () => {
   return (
